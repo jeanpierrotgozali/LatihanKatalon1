@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 120.0.0.0,,,15-01-2024 10:30:05,15-01-2024 10:30:28,22.716s,PASSED
+,,,,,,,
+Test Cases/login mma cms,Chrome 120.0.0.0,,,15-01-2024 10:30:06,15-01-2024 10:30:14,7.985s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,15-01-2024 10:30:06,15-01-2024 10:30:09,2.799s,PASSED
+"navigateToUrl(""http://34.128.87.8:8082/login"")",Chrome 120.0.0.0,,,15-01-2024 10:30:09,15-01-2024 10:30:12,2.724s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  MMA CMS/input_email""), ""admin@indocyber.com"")",Chrome 120.0.0.0,,,15-01-2024 10:30:12,15-01-2024 10:30:13,0.937s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  MMA CMS/input_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 120.0.0.0,,,15-01-2024 10:30:13,15-01-2024 10:30:13,0.601s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  MMA CMS/button_Login""))",Chrome 120.0.0.0,,,15-01-2024 10:30:13,15-01-2024 10:30:14,0.484s,PASSED
+,,,,,,,
+Test Cases/master news mma cms,Chrome 120.0.0.0,,,15-01-2024 10:30:14,15-01-2024 10:30:28,14.387s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/a_Master News""))",Chrome 120.0.0.0,,,15-01-2024 10:30:14,15-01-2024 10:30:20,5.562s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/button_Tambah                            News""))",Chrome 120.0.0.0,,,15-01-2024 10:30:20,15-01-2024 10:30:22,2.650s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Master News  MMA CMS/select_-- Choose category --        Calenda_e340c9""), ""Calendar Event"", true)",Chrome 120.0.0.0,,,15-01-2024 10:30:22,15-01-2024 10:30:24,1.349s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Master News  MMA CMS/select_-- Choose category --        Calenda_e340c9""), ""Calendar Event"", true)",Chrome 120.0.0.0,,,15-01-2024 10:30:24,15-01-2024 10:30:25,0.967s,PASSED
+"setText(findTestObject(""Object Repository/Page_Master News  MMA CMS/input_title""), ""tes katalon"")",Chrome 120.0.0.0,,,15-01-2024 10:30:25,15-01-2024 10:30:25,0.687s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/input_title""))",Chrome 120.0.0.0,,,15-01-2024 10:30:25,15-01-2024 10:30:26,0.379s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/div_Tambah News                            _9766b0""))",Chrome 120.0.0.0,,,15-01-2024 10:30:26,15-01-2024 10:30:26,0.361s,PASSED
+"setText(findTestObject(""Object Repository/Page_Master News  MMA CMS/textarea_summary""), ""tes katalon"")",Chrome 120.0.0.0,,,15-01-2024 10:30:26,15-01-2024 10:30:27,0.674s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/p""))",Chrome 120.0.0.0,,,15-01-2024 10:30:27,15-01-2024 10:30:27,0.380s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/input_isActive""))",Chrome 120.0.0.0,,,15-01-2024 10:30:27,15-01-2024 10:30:28,0.526s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/button_Save""))",Chrome 120.0.0.0,,,15-01-2024 10:30:28,15-01-2024 10:30:28,0.355s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-01-2024 10:30:28,15-01-2024 10:30:28,0.258s,PASSED

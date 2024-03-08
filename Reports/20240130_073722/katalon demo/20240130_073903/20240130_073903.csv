@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+katalon demo,Chrome 121.0.0.0,,,30-01-2024 08:21:05,30-01-2024 08:23:04,1m - 59.271s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/login katalon demo,Chrome 121.0.0.0,,,30-01-2024 08:21:05,30-01-2024 08:21:16,10.792s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 08:21:06,30-01-2024 08:21:09,2.942s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,30-01-2024 08:21:09,30-01-2024 08:21:12,2.972s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 121.0.0.0,,,30-01-2024 08:21:12,30-01-2024 08:21:12,0.522s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,30-01-2024 08:21:12,30-01-2024 08:21:13,0.856s,PASSED
+"setText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 121.0.0.0,,,30-01-2024 08:21:13,30-01-2024 08:21:14,0.783s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 121.0.0.0,,,30-01-2024 08:21:14,30-01-2024 08:21:14,0.470s,PASSED
+"takeScreenshotAsCheckpoint(""login katalon demo"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,30-01-2024 08:21:14,30-01-2024 08:21:15,0.756s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,30-01-2024 08:21:15,30-01-2024 08:21:16,1.016s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/make appointment katalon demo,Chrome 121.0.0.0,,,30-01-2024 08:21:16,30-01-2024 08:21:24,7.722s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo""), ""Hongkong CURA Healthcare Center"", true)",Chrome 121.0.0.0,,,30-01-2024 08:21:16,30-01-2024 08:21:17,0.980s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 121.0.0.0,,,30-01-2024 08:21:17,30-01-2024 08:21:18,0.342s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs""))",Chrome 121.0.0.0,,,30-01-2024 08:21:18,30-01-2024 08:21:18,0.366s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 121.0.0.0,,,30-01-2024 08:21:18,30-01-2024 08:21:19,0.375s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/td_31""))",Chrome 121.0.0.0,,,30-01-2024 08:21:19,30-01-2024 08:21:19,0.474s,PASSED
+"setText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment""), ""tes katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:21:19,30-01-2024 08:21:20,0.873s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 121.0.0.0,,,30-01-2024 08:21:20,30-01-2024 08:21:22,1.883s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 121.0.0.0,,,30-01-2024 08:21:22,30-01-2024 08:21:22,0.445s,PASSED
+"takeScreenshotAsCheckpoint(""appointment katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:21:22,30-01-2024 08:21:23,0.429s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 121.0.0.0,,,30-01-2024 08:21:23,30-01-2024 08:21:24,1.263s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/make appointment katalon demo 1,Chrome 121.0.0.0,,,30-01-2024 08:21:24,30-01-2024 08:21:34,10.112s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo""), ""Seoul CURA Healthcare Center"", true)",Chrome 121.0.0.0,,,30-01-2024 08:21:24,30-01-2024 08:21:25,0.929s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_hospital_readmission""))",Chrome 121.0.0.0,,,30-01-2024 08:21:25,30-01-2024 08:21:26,0.572s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs""))",Chrome 121.0.0.0,,,30-01-2024 08:21:26,30-01-2024 08:21:26,0.335s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 121.0.0.0,,,30-01-2024 08:21:26,30-01-2024 08:21:26,0.366s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/td_30""))",Chrome 121.0.0.0,,,30-01-2024 08:21:26,30-01-2024 08:21:27,0.475s,PASSED
+"setText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment""), ""tes katalon"")",Chrome 121.0.0.0,,,30-01-2024 08:21:27,30-01-2024 08:21:28,0.867s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 121.0.0.0,,,30-01-2024 08:21:28,30-01-2024 08:21:32,4.602s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 121.0.0.0,,,30-01-2024 08:21:32,30-01-2024 08:21:33,0.510s,PASSED
+"takeScreenshotAsCheckpoint(""appointment 1 katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:21:33,30-01-2024 08:21:33,0.405s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 121.0.0.0,,,30-01-2024 08:21:33,30-01-2024 08:21:34,0.942s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/make appointment katalon demo 2,Chrome 121.0.0.0,,,30-01-2024 08:21:34,30-01-2024 08:21:40,5.571s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 121.0.0.0,,,30-01-2024 08:21:34,30-01-2024 08:21:34,0.328s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs""))",Chrome 121.0.0.0,,,30-01-2024 08:21:34,30-01-2024 08:21:35,0.330s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_visit_date""))",Chrome 121.0.0.0,,,30-01-2024 08:21:35,30-01-2024 08:21:35,0.348s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/th_""))",Chrome 121.0.0.0,,,30-01-2024 08:21:35,30-01-2024 08:21:36,0.454s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/td_28""))",Chrome 121.0.0.0,,,30-01-2024 08:21:36,30-01-2024 08:21:36,0.558s,PASSED
+"setText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment""), ""tes katalon"")",Chrome 121.0.0.0,,,30-01-2024 08:21:36,30-01-2024 08:21:37,0.848s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 121.0.0.0,,,30-01-2024 08:21:37,30-01-2024 08:21:38,1.044s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 121.0.0.0,,,30-01-2024 08:21:38,30-01-2024 08:21:39,0.511s,PASSED
+"takeScreenshotAsCheckpoint(""appointment 2 katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:21:39,30-01-2024 08:21:39,0.399s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 121.0.0.0,,,30-01-2024 08:21:39,30-01-2024 08:21:40,0.628s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/history katalon demo,Chrome 121.0.0.0,,,30-01-2024 08:21:40,30-01-2024 08:22:46,1m - 5.941s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 121.0.0.0,,,30-01-2024 08:21:40,30-01-2024 08:21:40,0.325s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_History""))",Chrome 121.0.0.0,,,30-01-2024 08:21:40,30-01-2024 08:21:41,1.078s,PASSED
+"takeScreenshotAsCheckpoint(""history katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:21:41,30-01-2024 08:21:42,0.628s,PASSED
+"scrollToElement(findTestObject(""katalon demo/Page_CURA Healthcare Service/a_Go to Homepage""), 3)",Chrome 121.0.0.0,,,30-01-2024 08:21:42,30-01-2024 08:22:13,31.351s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 121.0.0.0,,,30-01-2024 08:22:13,30-01-2024 08:22:46,32.430s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/profile katalon demo,Chrome 121.0.0.0,,,30-01-2024 08:22:46,30-01-2024 08:22:49,3.153s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 121.0.0.0,,,30-01-2024 08:22:46,30-01-2024 08:22:46,0.321s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Profile""))",Chrome 121.0.0.0,,,30-01-2024 08:22:46,30-01-2024 08:22:47,0.875s,PASSED
+"takeScreenshotAsCheckpoint(""profile katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:22:47,30-01-2024 08:22:48,0.655s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 121.0.0.0,,,30-01-2024 08:22:48,30-01-2024 08:22:48,0.338s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Home""))",Chrome 121.0.0.0,,,30-01-2024 08:22:48,30-01-2024 08:22:49,0.838s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/logout katalon demo,Chrome 121.0.0.0,,,30-01-2024 08:22:49,30-01-2024 08:22:51,2.636s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 121.0.0.0,,,30-01-2024 08:22:49,30-01-2024 08:22:49,0.333s,PASSED
+"takeScreenshotAsCheckpoint(""logout katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:22:49,30-01-2024 08:22:50,1.033s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Logout""))",Chrome 121.0.0.0,,,30-01-2024 08:22:50,30-01-2024 08:22:51,0.873s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 08:22:51,30-01-2024 08:22:51,0.247s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/negatif login katalon demo,Chrome 121.0.0.0,,,30-01-2024 08:22:51,30-01-2024 08:23:04,12.979s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 08:22:52,30-01-2024 08:22:52,0.902s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,30-01-2024 08:22:52,30-01-2024 08:22:55,2.954s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 121.0.0.0,,,30-01-2024 08:22:55,30-01-2024 08:22:56,0.395s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,30-01-2024 08:22:56,30-01-2024 08:22:57,0.937s,PASSED
+"setText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_username""), username1)",Chrome 121.0.0.0,,,30-01-2024 08:22:57,30-01-2024 08:22:58,0.766s,PASSED
+"setText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_password""), password1)",Chrome 121.0.0.0,,,30-01-2024 08:22:58,30-01-2024 08:22:58,0.629s,PASSED
+"click(findTestObject(""katalon demo/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,30-01-2024 08:22:58,30-01-2024 08:22:59,0.926s,PASSED
+"verifyTextPresent(""Login failed!"", false)",Chrome 121.0.0.0,,,30-01-2024 08:22:59,30-01-2024 08:23:00,0.553s,PASSED
+"takeScreenshotAsCheckpoint(""negatif 1 login katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:23:00,30-01-2024 08:23:00,0.415s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,30-01-2024 08:23:00,30-01-2024 08:23:01,0.944s,PASSED
+"setText(findTestObject(""katalon demo/Page_CURA Healthcare Service/input_username""), username2)",Chrome 121.0.0.0,,,30-01-2024 08:23:01,30-01-2024 08:23:02,0.738s,PASSED
+"setText(findTestObject(""katalon demo/Page_CURA Healthcare Service/input_password""), password2)",Chrome 121.0.0.0,,,30-01-2024 08:23:02,30-01-2024 08:23:02,0.647s,PASSED
+"click(findTestObject(""katalon demo/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,30-01-2024 08:23:02,30-01-2024 08:23:04,1.222s,PASSED
+"verifyTextPresent(""Login failed!"", false)",Chrome 121.0.0.0,,,30-01-2024 08:23:04,30-01-2024 08:23:04,0.324s,PASSED
+"takeScreenshotAsCheckpoint(""negatif 2 login katalon demo"")",Chrome 121.0.0.0,,,30-01-2024 08:23:04,30-01-2024 08:23:04,0.425s,PASSED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 120.0.0.0,,,16-01-2024 16:53:53,16-01-2024 16:54:04,11.885s,FAILED
+,,,,,,,
+Test Cases/login mma cms,Chrome 120.0.0.0,,,16-01-2024 16:53:53,16-01-2024 16:54:03,9.669s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 16:53:54,16-01-2024 16:53:57,3.765s,PASSED
+"navigateToUrl(""http://34.128.87.8:8082/login"")",Chrome 120.0.0.0,,,16-01-2024 16:53:57,16-01-2024 16:54:00,3.192s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  MMA CMS/input_email""), ""admin@indocyber.com"")",Chrome 120.0.0.0,,,16-01-2024 16:54:00,16-01-2024 16:54:01,0.965s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  MMA CMS/input_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 120.0.0.0,,,16-01-2024 16:54:01,16-01-2024 16:54:02,0.520s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 16:54:02,16-01-2024 16:54:03,0.644s,PASSED
+,,,,,,,
+Test Cases/master news mma cms,Chrome 120.0.0.0,,,16-01-2024 16:54:03,16-01-2024 16:54:04,0.151s,FAILED
+"click(findTestObject(""Page_Master News  MMA CMS/a_Master News""))",Chrome 120.0.0.0,,,16-01-2024 16:54:03,16-01-2024 16:54:03,0.108s,FAILED
+,,,,,,,
+Test Cases/role list mma cms,Chrome 120.0.0.0,,,16-01-2024 16:54:04,16-01-2024 16:54:04,0.146s,FAILED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Master News  MMA CMS/span_Role List""))",Chrome 120.0.0.0,,,16-01-2024 16:54:04,16-01-2024 16:54:04,0.083s,FAILED

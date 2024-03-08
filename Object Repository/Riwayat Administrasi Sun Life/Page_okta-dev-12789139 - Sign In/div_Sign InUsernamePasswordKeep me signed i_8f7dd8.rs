@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sign InUsernamePasswordKeep me signed i_8f7dd8</name>
+   <tag></tag>
+   <elementGuidId>3fae5790-7d75-4815-ac74-b71404c339e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='signin-container']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#signin-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d33c7b3e-507a-40cf-ae36-2ca21b0c8b25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>signin-container</value>
+      <webElementGuid>bbef04ac-ee8e-43ca-adb9-77ab103cdb72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign InUsername Password Keep me signed inLupa Kata Sandi?Bantuan?Lupa ID Pengguna?Pengguna Baru?</value>
+      <webElementGuid>17357f77-7c3f-4249-b7bc-9a873a4cfbff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;signin-container&quot;)</value>
+      <webElementGuid>16d3f4c1-c9fa-4192-ac4d-1779a9cc4c30</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='signin-container']</value>
+      <webElementGuid>e25e7ee3-1d8b-4fb1-b0a3-92ae181dba5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>9fa2125e-d16f-4ff7-9d2a-b66d53527282</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'signin-container' and (text() = 'Sign InUsername Password Keep me signed inLupa Kata Sandi?Bantuan?Lupa ID Pengguna?Pengguna Baru?' or . = 'Sign InUsername Password Keep me signed inLupa Kata Sandi?Bantuan?Lupa ID Pengguna?Pengguna Baru?')]</value>
+      <webElementGuid>f33e8cce-a37c-42f6-9ac7-ba0a4334421d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

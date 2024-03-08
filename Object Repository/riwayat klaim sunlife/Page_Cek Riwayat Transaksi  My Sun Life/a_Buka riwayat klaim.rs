@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Buka riwayat klaim</name>
+   <tag></tag>
+   <elementGuidId>3641f6ff-17da-4757-a6a3-0ced0e22903f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/div[2]/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c05a2dcb-8a70-49fb-b079-f232fbdd65e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sl-link fw-semibold text-nowrap</value>
+      <webElementGuid>6eeba928-ee84-499a-a24f-908989fd286c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/msl/application-status/claim</value>
+      <webElementGuid>62451806-a0e5-43aa-8660-6d87815107f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buka riwayat klaim</value>
+      <webElementGuid>dc908a3a-074a-4aa3-a976-5540f49ddbc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;d-flex flex-column align-item justify-content-between h-100&quot;]/div[@class=&quot;mb-4&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;mt-5&quot;]/div[@class=&quot;row g-3&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;d-flex justify-content-between gap-3 mb-4&quot;]/div[1]/a[@class=&quot;sl-link fw-semibold text-nowrap&quot;]</value>
+      <webElementGuid>22d0b63f-db40-4b60-91c7-c7906a8c6206</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/div[2]/div/div/a</value>
+      <webElementGuid>9e7ce87e-b9d7-428e-8e02-2fd00da78323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Buka riwayat klaim')]</value>
+      <webElementGuid>ed7d1090-08b8-494a-b889-fc23890ba2c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/msl/application-status/claim')]</value>
+      <webElementGuid>b7cf5c1e-bbde-4887-8f27-c518d3cd6fe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a</value>
+      <webElementGuid>eacae9ab-504d-4b0f-b6c7-6316cbf21669</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/msl/application-status/claim' and (text() = 'Buka riwayat klaim' or . = 'Buka riwayat klaim')]</value>
+      <webElementGuid>51020be4-320d-4a7d-93b4-6bfb4ae84d65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

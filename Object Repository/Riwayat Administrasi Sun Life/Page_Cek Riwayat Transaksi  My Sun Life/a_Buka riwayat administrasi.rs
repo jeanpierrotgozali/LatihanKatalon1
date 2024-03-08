@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Buka riwayat administrasi</name>
+   <tag></tag>
+   <elementGuidId>e983dfa8-8c17-4ae7-9f7a-42824cd622f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-flex.justify-content-between.gap-3.mb-4 > div > a.sl-link.fw-semibold.text-nowrap</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fd388813-45df-4f37-ac46-7b4a56000f99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sl-link fw-semibold text-nowrap</value>
+      <webElementGuid>cc275b47-0853-4171-b94c-d8d64cc671dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/msl/application-status/administration</value>
+      <webElementGuid>caf9cb6c-75e1-47c1-bf67-975e500c2df9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buka riwayat administrasi</value>
+      <webElementGuid>2bb563d3-afd1-4baa-aaa8-9a9c262254c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;d-flex flex-column align-item justify-content-between h-100&quot;]/div[@class=&quot;mb-4&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;mt-5&quot;]/div[@class=&quot;row g-3&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;d-flex justify-content-between gap-3 mb-4&quot;]/div[1]/a[@class=&quot;sl-link fw-semibold text-nowrap&quot;]</value>
+      <webElementGuid>53840510-9bfd-4df0-904f-44cb455ab5c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/div/div/div/a</value>
+      <webElementGuid>1d54f016-78b2-4c13-9c95-932483046e27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Buka riwayat administrasi')]</value>
+      <webElementGuid>5158d21f-e0d3-4616-89a1-71f71395632d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/msl/application-status/administration')]</value>
+      <webElementGuid>5dc005da-3fd9-40c7-bb7c-1fef79755cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/a</value>
+      <webElementGuid>af8c99bc-a07d-4ba1-9b24-82904a750f7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/msl/application-status/administration' and (text() = 'Buka riwayat administrasi' or . = 'Buka riwayat administrasi')]</value>
+      <webElementGuid>795f0b05-d861-4556-bb12-6588be46673a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

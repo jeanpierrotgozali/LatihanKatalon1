@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+katalon demo,Chrome 120.0.0.0,,,23-01-2024 14:23:20,23-01-2024 14:25:01,1m - 41.467s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/login katalon demo,Chrome 120.0.0.0,,,23-01-2024 14:23:20,23-01-2024 14:24:15,55.020s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 14:23:20,23-01-2024 14:23:23,2.507s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,23-01-2024 14:23:23,23-01-2024 14:24:08,44.756s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 120.0.0.0,,,23-01-2024 14:24:08,23-01-2024 14:24:08,0.554s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login""))",Chrome 120.0.0.0,,,23-01-2024 14:24:08,23-01-2024 14:24:12,4.005s,PASSED
+"setText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,23-01-2024 14:24:12,23-01-2024 14:24:13,1.233s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,23-01-2024 14:24:13,23-01-2024 14:24:14,0.537s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,23-01-2024 14:24:14,23-01-2024 14:24:15,1.007s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/make appointment katalon demo,Chrome 120.0.0.0,,,23-01-2024 14:24:15,23-01-2024 14:24:55,40.137s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,23-01-2024 14:24:16,23-01-2024 14:24:17,1.050s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 120.0.0.0,,,23-01-2024 14:24:17,23-01-2024 14:24:17,0.377s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs""))",Chrome 120.0.0.0,,,23-01-2024 14:24:17,23-01-2024 14:24:17,0.372s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 120.0.0.0,,,23-01-2024 14:24:17,23-01-2024 14:24:18,0.369s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/td_31""))",Chrome 120.0.0.0,,,23-01-2024 14:24:18,23-01-2024 14:24:18,0.493s,PASSED
+"setText(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment""), ""tes katalon demo"")",Chrome 120.0.0.0,,,23-01-2024 14:24:18,23-01-2024 14:24:19,0.777s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,23-01-2024 14:24:19,23-01-2024 14:24:20,0.620s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 120.0.0.0,,,23-01-2024 14:24:20,23-01-2024 14:24:20,0.626s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 120.0.0.0,,,23-01-2024 14:24:20,23-01-2024 14:24:55,34.899s,PASSED
+,,,,,,,
+Test Cases/Katalon Demo/history katalon demo,Chrome 120.0.0.0,,,23-01-2024 14:24:55,23-01-2024 14:25:01,5.991s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 120.0.0.0,,,23-01-2024 14:24:55,23-01-2024 14:24:57,1.488s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_History""))",Chrome 120.0.0.0,,,23-01-2024 14:24:57,23-01-2024 14:24:59,2.235s,PASSED
+"click(findTestObject(""Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 120.0.0.0,,,23-01-2024 14:24:59,23-01-2024 14:25:01,2.051s,PASSED

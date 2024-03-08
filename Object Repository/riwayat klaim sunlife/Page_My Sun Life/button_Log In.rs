@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Log In</name>
+   <tag></tag>
+   <elementGuidId>5f9c22fc-3c5a-438a-ab20-6d79c64d978e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.sl-btn.w-100.my-4.d-flex</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>46af1403-c411-469f-8f63-1b05bcb6490e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b08f18ef-a8c4-435b-9a23-fb4290a082cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary sl-btn w-100 my-4 d-flex</value>
+      <webElementGuid>d13bd682-d7e4-4cd9-be0f-92b9cab062cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log In</value>
+      <webElementGuid>54916e6b-cf58-46dc-a5ac-c4c18b291445</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;d-flex flex-column justify-content-between h-100&quot;]/div[@class=&quot;position-relative pb-5&quot;]/div[@class=&quot;position-relative h-100 mb-4&quot;]/div[@class=&quot;position-relative z-2&quot;]/div[@class=&quot;container px-0&quot;]/div[@class=&quot;d-flex align-items-top align-items-sm-center bg-grey-50 p-4 max-w-368 min-h-400&quot;]/div[@class=&quot;w-100&quot;]/button[@class=&quot;btn btn-primary sl-btn w-100 my-4 d-flex&quot;]</value>
+      <webElementGuid>a2280963-5121-495e-9deb-768c4a8bddb0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>3f664d1b-8dc4-4c7f-9e5d-8a784f18e30d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div/button</value>
+      <webElementGuid>dbe5553c-6895-4d8b-ac99-28df0f2625ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/div/div/button</value>
+      <webElementGuid>5d4f13dd-b33c-445a-a17d-a551abbb339e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Log In' or . = 'Log In')]</value>
+      <webElementGuid>2c7c47ad-5a2f-43b7-b708-e6b09c211213</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="mma cms" time="72.252" tests="3" failures="0" errors="0">
+   <testsuite name="mma cms" tests="3" failures="0" errors="0" time="72.252" skipped="0" timestamp="19-01-2024T11:21:45" hostname="0517 - Pierrot" id="Test Suites/mma cms">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\0517\\Katalon Studio\\poc bni\\Reports\\20240119_112122\\mma cms\\20240119_112123"/>
+         <property name="logFiles" value="C:\\Users\\0517\\Katalon Studio\\poc bni\\Reports\\20240119_112122\\mma cms\\20240119_112123\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0517 - Pierrot"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.241.50"/>
+         <property name="sessionId" value="fcc11518c6bb2303ca4d92d339b372e9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mma cms" time="10.528" classname="Test Cases/login mma cms" status="PASSED">
+         <system-out><![CDATA[19-01-2024T11:21:45 - [TEST_CASE][PASSED] - Test Cases/login mma cms: Test Cases/login mma cms
+
+19-01-2024T11:21:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-01-2024T11:21:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-01-2024T11:21:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-01-2024T11:21:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-01-2024T11:21:51 - [TEST_STEP][PASSED] - navigateToUrl("http://34.128.87.8:8082/login"): Navigate to 'http://34.128.87.8:8082/login' successfully
+
+19-01-2024T11:21:53 - [MESSAGE][PASSED] - Navigate to 'http://34.128.87.8:8082/login' successfully
+
+19-01-2024T11:21:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login  MMA CMS/input_email"), "admin@indocyber.com"): Text 'admin@indocyber.com' is set on object 'Object Repository/Page_Login  MMA CMS/input_email'
+
+19-01-2024T11:21:54 - [MESSAGE][PASSED] - Text 'admin@indocyber.com' is set on object 'Object Repository/Page_Login  MMA CMS/input_email'
+
+19-01-2024T11:21:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login  MMA CMS/input_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_Login  MMA CMS/input_password'
+
+19-01-2024T11:21:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  MMA CMS/input_password'
+
+19-01-2024T11:21:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login  MMA CMS/button_Login")): Object: 'Object Repository/Page_Login  MMA CMS/button_Login' is clicked on
+
+19-01-2024T11:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  MMA CMS/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/role list mma cms" time="26.837" classname="Test Cases/role list mma cms" status="PASSED">
+         <system-out><![CDATA[19-01-2024T11:21:55 - [TEST_CASE][PASSED] - Test Cases/role list mma cms: Test Cases/role list mma cms
+
+19-01-2024T11:21:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+19-01-2024T11:22:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+19-01-2024T11:22:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Master News  MMA CMS/span_Role List")): Object: 'Object Repository/Page_Role List  MMA CMS/Page_Master News  MMA CMS/span_Role List' is clicked on
+
+19-01-2024T11:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Role List  MMA CMS/Page_Master News  MMA CMS/span_Role List' is clicked on
+
+19-01-2024T11:22:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/button_Tambah                              _2f1eed")): Object: 'Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/button_Tambah                              _2f1eed' is clicked on
+
+19-01-2024T11:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/button_Tambah                              _2f1eed' is clicked on
+
+19-01-2024T11:22:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/input_name"), "test katalon"): Text 'test katalon' is set on object 'Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/input_name'
+
+19-01-2024T11:22:10 - [MESSAGE][PASSED] - Text 'test katalon' is set on object 'Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/input_name'
+
+19-01-2024T11:22:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/button_Save")): Object: 'Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/button_Save' is clicked on
+
+19-01-2024T11:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/button_Save' is clicked on
+
+19-01-2024T11:22:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-01-2024T11:22:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-01-2024T11:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Privilege List  tes katalon  MMA CMS/Page_Role List  MMA CMS/a_Name_btnPrivileges")): Object: 'Object Repository/Page_Privilege List  tes katalon  MMA CMS/Page_Role List  MMA CMS/a_Name_btnPrivileges' is clicked on
+
+19-01-2024T11:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Privilege List  tes katalon  MMA CMS/Page_Role List  MMA CMS/a_Name_btnPrivileges' is clicked on
+
+19-01-2024T11:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions")): Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions' is clicked on
+
+19-01-2024T11:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions' is clicked on
+
+19-01-2024T11:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions")): Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions' is clicked on
+
+19-01-2024T11:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions' is clicked on
+
+19-01-2024T11:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions")): Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions' is clicked on
+
+19-01-2024T11:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions' is clicked on
+
+19-01-2024T11:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions")): Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions' is clicked on
+
+19-01-2024T11:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions' is clicked on
+
+19-01-2024T11:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/button_Save")): Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/button_Save' is clicked on
+
+19-01-2024T11:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user list mma cms" time="34.536" classname="Test Cases/user list mma cms" status="PASSED">
+         <system-out><![CDATA[19-01-2024T11:22:22 - [TEST_CASE][PASSED] - Test Cases/user list mma cms: Test Cases/user list mma cms
+
+19-01-2024T11:22:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+19-01-2024T11:22:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+19-01-2024T11:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Master News  MMA CMS/a_User List")): Object: 'Object Repository/Page_Master News  MMA CMS/a_User List' is clicked on
+
+19-01-2024T11:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Master News  MMA CMS/a_User List' is clicked on
+
+19-01-2024T11:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_User List  MMA CMS/button_Tambah                              _98daf2")): Object: 'Object Repository/Page_User List  MMA CMS/button_Tambah                              _98daf2' is clicked on
+
+19-01-2024T11:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User List  MMA CMS/button_Tambah                              _98daf2' is clicked on
+
+19-01-2024T11:22:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_User List  MMA CMS/input_name"), "tes katalon"): Text 'tes katalon' is set on object 'Object Repository/Page_User List  MMA CMS/input_name'
+
+19-01-2024T11:22:37 - [MESSAGE][PASSED] - Text 'tes katalon' is set on object 'Object Repository/Page_User List  MMA CMS/input_name'
+
+19-01-2024T11:22:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_User List  MMA CMS/input_email"), "teskatalon@mail.com"): Text 'teskatalon@mail.com' is set on object 'Object Repository/Page_User List  MMA CMS/input_email'
+
+19-01-2024T11:22:38 - [MESSAGE][PASSED] - Text 'teskatalon@mail.com' is set on object 'Object Repository/Page_User List  MMA CMS/input_email'
+
+19-01-2024T11:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_User List  MMA CMS/span_-- Choose Role --")): Object: 'Object Repository/Page_User List  MMA CMS/span_-- Choose Role --' is clicked on
+
+19-01-2024T11:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User List  MMA CMS/span_-- Choose Role --' is clicked on
+
+19-01-2024T11:22:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-01-2024T11:22:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-01-2024T11:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_User List  MMA CMS/Page_User List  MMA CMS/input_Save_select2-search__field"), "test katalon"): Text 'test katalon' is set on object 'Object Repository/Page_User List  MMA CMS/Page_User List  MMA CMS/input_Save_select2-search__field'
+
+19-01-2024T11:22:44 - [MESSAGE][PASSED] - Text 'test katalon' is set on object 'Object Repository/Page_User List  MMA CMS/Page_User List  MMA CMS/input_Save_select2-search__field'
+
+19-01-2024T11:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_User List  MMA CMS/Page_User List  MMA CMS/li_test katalon")): Object: 'Object Repository/Page_User List  MMA CMS/Page_User List  MMA CMS/li_test katalon' is clicked on
+
+19-01-2024T11:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User List  MMA CMS/Page_User List  MMA CMS/li_test katalon' is clicked on
+
+19-01-2024T11:22:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_User List  MMA CMS/input_password"), "bYWZAF/DppUKN6LjEF/V9A=="): Text ****** has been set on object 'Object Repository/Page_User List  MMA CMS/input_password'
+
+19-01-2024T11:22:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_User List  MMA CMS/input_password'
+
+19-01-2024T11:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_User List  MMA CMS/button_Save")): Object: 'Object Repository/Page_User List  MMA CMS/button_Save' is clicked on
+
+19-01-2024T11:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User List  MMA CMS/button_Save' is clicked on
+
+19-01-2024T11:22:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+19-01-2024T11:22:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+19-01-2024T11:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_User List  MMA CMS/button_Log out")): Object: 'Object Repository/Page_User List  MMA CMS/button_Log out' is clicked on
+
+19-01-2024T11:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User List  MMA CMS/button_Log out' is clicked on
+
+19-01-2024T11:22:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-01-2024T11:22:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-01-2024T11:21:45 - [TEST_SUITE][PASSED] - mma cms: Test Cases/user list mma cms]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

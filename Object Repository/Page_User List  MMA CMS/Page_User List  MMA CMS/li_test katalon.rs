@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_test katalon</name>
+   <tag></tag>
+   <elementGuidId>29798233-3cbd-45d8-bb43-11190729e84f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/span[1]/span[1]/span[2]/ul[1]/li[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>51dc4897-f94b-47c9-9e13-7a24a17a443f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-results__option select2-results__option--highlighted</value>
+      <webElementGuid>fc15e0e1-de56-4f32-86e7-c4cdd580aca4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>select2-roleAdd-result-1k6c-57217e39-63d2-4bc7-82d1-4212c3189383</value>
+      <webElementGuid>0eec9ba9-f94f-4c36-b24f-6aa663e5149c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>treeitem</value>
+      <webElementGuid>8ef866ee-3ba6-4c1a-a3ec-9bae961b0c83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f2cc6c59-0956-461d-a976-1623bbf50afc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>test katalon</value>
+      <webElementGuid>b2106a10-632d-451a-90e9-48ae11cf256f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/span[@class=&quot;select2-container select2-container--default select2-container--open&quot;]/span[@class=&quot;select2-dropdown select2-dropdown--above&quot;]/span[@class=&quot;select2-results&quot;]/ul[@id=&quot;select2-roleAdd-results&quot;]/li[@id=&quot;select2-roleAdd-result-1k6c-57217e39-63d2-4bc7-82d1-4212c3189383&quot;]</value>
+      <webElementGuid>c44a4c8b-29ad-49d1-89db-0cc503016440</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@id = 'select2-roleAdd-result-1k6c-57217e39-63d2-4bc7-82d1-4212c3189383' and (text() = 'test katalon' or . = 'test katalon')]</value>
+      <webElementGuid>5cbe695f-1b18-4e3f-bc0c-c7b55c8d6b6e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 120.0.0.0,,,15-01-2024 11:07:58,15-01-2024 11:09:23,1m - 24.814s,FAILED
+,,,,,,,
+Test Cases/login mma cms,Chrome 120.0.0.0,,,15-01-2024 11:07:58,15-01-2024 11:09:09,1m - 10.237s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,15-01-2024 11:07:59,15-01-2024 11:08:02,3.023s,PASSED
+"navigateToUrl(""http://34.128.87.8:8082/login"")",Chrome 120.0.0.0,,,15-01-2024 11:08:02,15-01-2024 11:08:04,2.196s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  MMA CMS/input_email""), ""admin@indocyber.com"")",Chrome 120.0.0.0,,,15-01-2024 11:08:04,15-01-2024 11:09:08,1m - 3.477s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  MMA CMS/input_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 120.0.0.0,,,15-01-2024 11:09:08,15-01-2024 11:09:08,0.452s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  MMA CMS/button_Login""))",Chrome 120.0.0.0,,,15-01-2024 11:09:08,15-01-2024 11:09:09,0.450s,PASSED
+,,,,,,,
+Test Cases/master news mma cms,Chrome 120.0.0.0,,,15-01-2024 11:09:09,15-01-2024 11:09:22,13.573s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/a_Master News""))",Chrome 120.0.0.0,,,15-01-2024 11:09:09,15-01-2024 11:09:14,4.694s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/button_Tambah                            News""))",Chrome 120.0.0.0,,,15-01-2024 11:09:14,15-01-2024 11:09:16,2.698s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Master News  MMA CMS/select_-- Choose category --        Calenda_e340c9""), ""Calendar Event"", true)",Chrome 120.0.0.0,,,15-01-2024 11:09:16,15-01-2024 11:09:18,1.294s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Master News  MMA CMS/select_-- Choose category --        Calenda_e340c9""), ""Calendar Event"", true)",Chrome 120.0.0.0,,,15-01-2024 11:09:18,15-01-2024 11:09:18,0.947s,PASSED
+"setText(findTestObject(""Object Repository/Page_Master News  MMA CMS/input_title""), ""tes katalon"")",Chrome 120.0.0.0,,,15-01-2024 11:09:18,15-01-2024 11:09:19,0.674s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/input_title""))",Chrome 120.0.0.0,,,15-01-2024 11:09:19,15-01-2024 11:09:20,0.368s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/div_Tambah News                            _9766b0""))",Chrome 120.0.0.0,,,15-01-2024 11:09:20,15-01-2024 11:09:20,0.345s,PASSED
+"setText(findTestObject(""Object Repository/Page_Master News  MMA CMS/textarea_summary""), ""tes katalon"")",Chrome 120.0.0.0,,,15-01-2024 11:09:20,15-01-2024 11:09:21,0.687s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/p""))",Chrome 120.0.0.0,,,15-01-2024 11:09:21,15-01-2024 11:09:21,0.428s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/input_isActive""))",Chrome 120.0.0.0,,,15-01-2024 11:09:21,15-01-2024 11:09:21,0.464s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/button_Save""))",Chrome 120.0.0.0,,,15-01-2024 11:09:21,15-01-2024 11:09:22,0.352s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-01-2024 11:09:22,15-01-2024 11:09:22,0.315s,PASSED
+,,,,,,,
+Test Cases/master intorductory mma cms,Chrome 120.0.0.0,,,15-01-2024 11:09:23,15-01-2024 11:09:23,0.091s,FAILED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/span_Master Introductory""))",Chrome 120.0.0.0,,,15-01-2024 11:09:23,15-01-2024 11:09:23,0.065s,FAILED

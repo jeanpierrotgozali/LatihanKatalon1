@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+mma cms,Chrome 120.0.0.0,,,19-01-2024 10:10:20,19-01-2024 10:13:51,3m - 31.169s,FAILED
+,,,,,,,
+Test Cases/login mma cms,Chrome 120.0.0.0,,,19-01-2024 10:10:20,19-01-2024 10:10:29,8.675s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 10:10:20,19-01-2024 10:10:24,3.411s,PASSED
+"navigateToUrl(""http://34.128.87.8:8082/login"")",Chrome 120.0.0.0,,,19-01-2024 10:10:24,19-01-2024 10:10:26,2.152s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  MMA CMS/input_email""), ""admin@indocyber.com"")",Chrome 120.0.0.0,,,19-01-2024 10:10:26,19-01-2024 10:10:27,1.329s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  MMA CMS/input_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 120.0.0.0,,,19-01-2024 10:10:27,19-01-2024 10:10:28,0.803s,PASSED
+"click(findTestObject(""Page_Login  MMA CMS/button_Login""))",Chrome 120.0.0.0,,,19-01-2024 10:10:28,19-01-2024 10:10:29,0.512s,PASSED
+,,,,,,,
+Test Cases/role list mma cms,Chrome 120.0.0.0,,,19-01-2024 10:10:29,19-01-2024 10:10:57,28.840s,PASSED
+delay(10),Chrome 120.0.0.0,,,19-01-2024 10:10:29,19-01-2024 10:10:39,10.080s,PASSED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Master News  MMA CMS/span_Role List""))",Chrome 120.0.0.0,,,19-01-2024 10:10:39,19-01-2024 10:10:40,1.233s,PASSED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/button_Tambah                              _2f1eed""))",Chrome 120.0.0.0,,,19-01-2024 10:10:40,19-01-2024 10:10:42,1.723s,PASSED
+"setText(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/input_name""), ""test katalon"")",Chrome 120.0.0.0,,,19-01-2024 10:10:42,19-01-2024 10:10:44,1.827s,PASSED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Role List  MMA CMS/button_Save""))",Chrome 120.0.0.0,,,19-01-2024 10:10:44,19-01-2024 10:10:44,0.658s,PASSED
+delay(5),Chrome 120.0.0.0,,,19-01-2024 10:10:44,19-01-2024 10:10:49,5.067s,PASSED
+"click(findTestObject(""Page_Privilege List  tes katalon  MMA CMS/Page_Role List  MMA CMS/a_Name_btnPrivileges""))",Chrome 120.0.0.0,,,19-01-2024 10:10:49,19-01-2024 10:10:51,1.285s,PASSED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions""))",Chrome 120.0.0.0,,,19-01-2024 10:10:51,19-01-2024 10:10:52,1.578s,PASSED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions""))",Chrome 120.0.0.0,,,19-01-2024 10:10:52,19-01-2024 10:10:53,0.606s,PASSED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions""))",Chrome 120.0.0.0,,,19-01-2024 10:10:53,19-01-2024 10:10:54,0.631s,PASSED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/input_actions""))",Chrome 120.0.0.0,,,19-01-2024 10:10:54,19-01-2024 10:10:54,0.623s,PASSED
+"click(findTestObject(""Object Repository/Page_Role List  MMA CMS/Page_Privilege List  test katalon  MMA CMS/button_Save""))",Chrome 120.0.0.0,,,19-01-2024 10:10:54,19-01-2024 10:10:57,3.188s,PASSED
+,,,,,,,
+Test Cases/user list mma cms,Chrome 120.0.0.0,,,19-01-2024 10:13:25,19-01-2024 10:13:51,25.239s,FAILED
+delay(10),Chrome 120.0.0.0,,,19-01-2024 10:13:25,19-01-2024 10:13:35,10.012s,PASSED
+"click(findTestObject(""Object Repository/Page_Master News  MMA CMS/a_User List""))",Chrome 120.0.0.0,,,19-01-2024 10:13:35,19-01-2024 10:13:51,15.181s,FAILED

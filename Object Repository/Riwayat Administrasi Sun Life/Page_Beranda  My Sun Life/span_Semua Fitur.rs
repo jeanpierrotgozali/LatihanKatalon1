@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Semua Fitur</name>
+   <tag></tag>
+   <elementGuidId>c318b5db-d7fe-4c69-bf8e-2d0f480739e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='all-features']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.d-none.d-md-inline-block</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ca37af39-fba4-4695-ad1e-1048ad570c60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-none d-md-inline-block</value>
+      <webElementGuid>05e3feac-defc-4c00-b778-af87bdaebd90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Semua Fitur</value>
+      <webElementGuid>d30bf236-129c-4773-83b1-f4044ebbd97a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;all-features&quot;)/span[@class=&quot;d-none d-md-inline-block&quot;]</value>
+      <webElementGuid>37e35bba-96a3-4baa-a3ab-5d8055977b18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='all-features']/span</value>
+      <webElementGuid>90033dcf-cdda-4148-a0b0-3c4d532260c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>351fefd8-fd85-4d30-ab3f-794c6261cd51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Semua Fitur' or . = 'Semua Fitur')]</value>
+      <webElementGuid>5248c17a-6656-4dec-b4e6-72cce0a24c41</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

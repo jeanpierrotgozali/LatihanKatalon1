@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sun life,Chrome 120.0.0.0,,,18-01-2024 15:42:06,18-01-2024 15:42:49,43.045s,PASSED
+,,,,,,,
+Test Cases/login sunlife,Chrome 120.0.0.0,,,18-01-2024 15:42:07,18-01-2024 15:42:28,21.783s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,18-01-2024 15:42:07,18-01-2024 15:42:10,3.261s,PASSED
+"navigateToUrl(""https://iglo-dev.ekreasi.com/msl/landing"")",Chrome 120.0.0.0,,,18-01-2024 15:42:10,18-01-2024 15:42:13,2.856s,PASSED
+"click(findTestObject(""Object Repository/Page Login Sun Life/Page_My Sun Life/button_Tidak""))",Chrome 120.0.0.0,,,18-01-2024 15:42:13,18-01-2024 15:42:15,2.100s,PASSED
+"click(findTestObject(""Object Repository/Page Login Sun Life/Page_My Sun Life/button_Log In""))",Chrome 120.0.0.0,,,18-01-2024 15:42:15,18-01-2024 15:42:16,0.434s,PASSED
+delay(10),Chrome 120.0.0.0,,,18-01-2024 15:42:16,18-01-2024 15:42:26,10.083s,PASSED
+"setText(findTestObject(""Object Repository/Page Login Sun Life/Page_okta-dev-12789139 - Sign In/input_identifier""), ""hari.sabintang@indocyber.id"")",Chrome 120.0.0.0,,,18-01-2024 15:42:26,18-01-2024 15:42:27,1.565s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page Login Sun Life/Page_okta-dev-12789139 - Sign In/input_credentials.passcode""), ""VpPqM6/QKln4pL8M9Th8UA=="")",Chrome 120.0.0.0,,,18-01-2024 15:42:27,18-01-2024 15:42:28,0.479s,PASSED
+"click(findTestObject(""Object Repository/Page Login Sun Life/Page_okta-dev-12789139 - Sign In/input_button button-primary""))",Chrome 120.0.0.0,,,18-01-2024 15:42:28,18-01-2024 15:42:28,0.403s,PASSED
+,,,,,,,
+Test Cases/riwayat administrasi sunlife,Chrome 120.0.0.0,,,18-01-2024 15:42:28,18-01-2024 15:42:46,18.131s,PASSED
+delay(10),Chrome 120.0.0.0,,,18-01-2024 15:42:29,18-01-2024 15:42:39,10.021s,PASSED
+"click(findTestObject(""Object Repository/Riwayat Administrasi Sun Life/Page_Beranda  My Sun Life/span_Semua Fitur""))",Chrome 120.0.0.0,,,18-01-2024 15:42:39,18-01-2024 15:42:46,6.951s,PASSED
+"click(findTestObject(""Object Repository/Riwayat Administrasi Sun Life/Page_Beranda  My Sun Life/div_Cek Riwayat Transaksi""))",Chrome 120.0.0.0,,,18-01-2024 15:42:46,18-01-2024 15:42:46,0.400s,PASSED
+"click(findTestObject(""Object Repository/Riwayat Administrasi Sun Life/Page_Cek Riwayat Transaksi  My Sun Life/a_Buka riwayat administrasi""))",Chrome 120.0.0.0,,,18-01-2024 15:42:46,18-01-2024 15:42:46,0.511s,PASSED
+,,,,,,,
+Test Cases/riwayat klaim sunlife,Chrome 120.0.0.0,,,18-01-2024 15:42:46,18-01-2024 15:42:49,2.774s,PASSED
+"click(findTestObject(""Object Repository/riwayat klaim sunlife/Page_Beranda  My Sun Life/span_Semua Fitur""))",Chrome 120.0.0.0,,,18-01-2024 15:42:47,18-01-2024 15:42:48,1.444s,PASSED
+"click(findTestObject(""Object Repository/riwayat klaim sunlife/Page_Beranda  My Sun Life/div_Cek Riwayat Transaksi""))",Chrome 120.0.0.0,,,18-01-2024 15:42:48,18-01-2024 15:42:48,0.378s,PASSED
+"click(findTestObject(""Object Repository/riwayat klaim sunlife/Page_Cek Riwayat Transaksi  My Sun Life/a_Buka riwayat klaim""))",Chrome 120.0.0.0,,,18-01-2024 15:42:48,18-01-2024 15:42:49,0.510s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,18-01-2024 15:42:49,18-01-2024 15:42:49,0.282s,PASSED

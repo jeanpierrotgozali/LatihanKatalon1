@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="kaf mma" time="68.936" tests="2" failures="0" errors="0">
+   <testsuite name="kaf mma" tests="2" failures="0" errors="0" time="68.936" skipped="0" timestamp="27-01-2024T14:12:32" hostname="0517 - Pierrot" id="Test Suites/kaf mma">
+      <properties>
+         <property name="deviceName" value="Genymobile Galaxy S10 (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\0517\\Katalon Studio\\poc bni\\Reports\\20240127_141214\\kaf mma\\20240127_141214"/>
+         <property name="logFiles" value="C:\\Users\\0517\\Katalon Studio\\poc bni\\Reports\\20240127_141214\\kaf mma\\20240127_141214\\appium.log, C:\\Users\\0517\\Katalon Studio\\poc bni\\Reports\\20240127_141214\\kaf mma\\20240127_141214\\appium_error.log, C:\\Users\\0517\\Katalon Studio\\poc bni\\Reports\\20240127_141214\\kaf mma\\20240127_141214\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0517 - Pierrot"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Galaxy S10"/>
+         <property name="hostAddress" value="192.168.96.2"/>
+         <property name="deviceManufacturer" value="Genymobile"/>
+         <property name="deviceId" value="192.168.96.102:5555"/>
+         <property name="deviceName" value="Genymobile Galaxy S10 (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/MMA/login mma" time="56.831" classname="Test Cases/MMA/login mma" status="PASSED">
+         <system-out><![CDATA[27-01-2024T14:12:33 - [TEST_CASE][PASSED] - Test Cases/MMA/login mma: Test Cases/MMA/login mma
+
+27-01-2024T14:12:34 - [TEST_STEP][PASSED] - startApplication("C:\Users\0517\Downloads\KAF MMA UAT v10.apk", true): Started app at: 'C:\Users\0517\Downloads\KAF MMA UAT v10.apk'
+
+27-01-2024T14:12:35 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+27-01-2024T14:12:44 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+27-01-2024T14:12:44 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\0517\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+27-01-2024T14:12:44 - [MESSAGE][INFO] - appium outlog: C:\Users\0517\Katalon Studio\poc bni\Reports\20240127_141214\kaf mma\20240127_141214\appium.log
+
+27-01-2024T14:12:44 - [MESSAGE][INFO] - appium errlog: C:\Users\0517\Katalon Studio\poc bni\Reports\20240127_141214\kaf mma\20240127_141214\appium_error.log
+
+27-01-2024T14:12:47 - [MESSAGE][INFO] - Appium server started on port 54,725
+
+27-01-2024T14:13:09 - [MESSAGE][PASSED] - Started app at: 'C:\Users\0517\Downloads\KAF MMA UAT v10.apk'
+
+27-01-2024T14:13:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.widget.EditText (2)"), 0): Tapped on element 'Object Repository/mma mobile/android.widget.EditText (2)'
+
+27-01-2024T14:13:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.widget.EditText (2)'
+
+27-01-2024T14:13:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mma mobile/android.widget.EditText (2)"), "receptionist@kaf.co.id", 0): Text 'receptionist@kaf.co.id' has been set to element 'Object Repository/mma mobile/android.widget.EditText (2)'
+
+27-01-2024T14:13:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:11 - [MESSAGE][PASSED] - Text 'receptionist@kaf.co.id' has been set to element 'Object Repository/mma mobile/android.widget.EditText (2)'
+
+27-01-2024T14:13:11 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-01-2024T14:13:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-01-2024T14:13:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.widget.EditText"), 0): Tapped on element 'Object Repository/mma mobile/android.widget.EditText'
+
+27-01-2024T14:13:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.widget.EditText'
+
+27-01-2024T14:13:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mma mobile/android.widget.EditText"), "R3cept!#888", 0): Text 'R3cept!#888' has been set to element 'Object Repository/mma mobile/android.widget.EditText'
+
+27-01-2024T14:13:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:17 - [MESSAGE][PASSED] - Text 'R3cept!#888' has been set to element 'Object Repository/mma mobile/android.widget.EditText'
+
+27-01-2024T14:13:17 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-01-2024T14:13:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-01-2024T14:13:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.widget.Button"), 0): Tapped on element 'Object Repository/mma mobile/android.widget.Button'
+
+27-01-2024T14:13:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.widget.Button'
+
+27-01-2024T14:13:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-01-2024T14:13:30 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MMA/add prospect customer" time="11.131" classname="Test Cases/MMA/add prospect customer" status="PASSED">
+         <system-out><![CDATA[27-01-2024T14:13:30 - [TEST_CASE][PASSED] - Test Cases/MMA/add prospect customer: Test Cases/MMA/add prospect customer
+
+27-01-2024T14:13:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/mma mobile/android.widget.ImageView (1)'
+
+27-01-2024T14:13:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.widget.ImageView (1)'
+
+27-01-2024T14:13:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/mma mobile/android.widget.ImageView (2)'
+
+27-01-2024T14:13:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.widget.ImageView (2)'
+
+27-01-2024T14:13:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.view.View"), 0): Tapped on element 'Object Repository/mma mobile/android.view.View'
+
+27-01-2024T14:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.view.View'
+
+27-01-2024T14:13:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.widget.EditText (3)"), 0): Tapped on element 'Object Repository/mma mobile/android.widget.EditText (3)'
+
+27-01-2024T14:13:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.widget.EditText (3)'
+
+27-01-2024T14:13:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mma mobile/android.widget.EditText (3)"), "PT MENCARI", 0): Text 'PT MENCARI' has been set to element 'Object Repository/mma mobile/android.widget.EditText (3)'
+
+27-01-2024T14:13:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:36 - [MESSAGE][PASSED] - Text 'PT MENCARI' has been set to element 'Object Repository/mma mobile/android.widget.EditText (3)'
+
+27-01-2024T14:13:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.widget.EditText (4)"), 0): Tapped on element 'Object Repository/mma mobile/android.widget.EditText (4)'
+
+27-01-2024T14:13:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.widget.EditText (4)'
+
+27-01-2024T14:13:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mma mobile/android.widget.EditText (4)"), "MCRI", 0): Text 'MCRI' has been set to element 'Object Repository/mma mobile/android.widget.EditText (4)'
+
+27-01-2024T14:13:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:37 - [MESSAGE][PASSED] - Text 'MCRI' has been set to element 'Object Repository/mma mobile/android.widget.EditText (4)'
+
+27-01-2024T14:13:37 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-01-2024T14:13:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-01-2024T14:13:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mma mobile/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/mma mobile/android.widget.ImageView (3)'
+
+27-01-2024T14:13:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T14:13:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mma mobile/android.widget.ImageView (3)'
+
+27-01-2024T14:13:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+27-01-2024T14:13:41 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-01-2024T14:12:32 - [TEST_SUITE][PASSED] - kaf mma: Test Cases/MMA/add prospect customer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

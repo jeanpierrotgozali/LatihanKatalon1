@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Cek Riwayat Transaksi</name>
+   <tag></tag>
+   <elementGuidId>e3ea896a-ac52-4c67-a402-98ff8b09dad7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='itemMenu']/div[2]/div/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d7cdfb24-934c-49db-854b-3d960fdc0c4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>py-2</value>
+      <webElementGuid>92a4d9f5-7055-4107-bda6-7e8fcf59b286</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cek Riwayat Transaksi</value>
+      <webElementGuid>522584b7-1e46-4dec-9801-560936d4b48d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;itemMenu&quot;)/div[@class=&quot;col-md-6 col-lg-3&quot;]/div[@class=&quot;my-2&quot;]/a[@class=&quot;sl-link fw-semibold fs-6 text-nowrap&quot;]/div[@class=&quot;py-2&quot;]</value>
+      <webElementGuid>aeb31c64-d124-42d8-829c-020da65dbf90</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='itemMenu']/div[2]/div/a/div</value>
+      <webElementGuid>b6455f8d-2088-4432-99f9-17fbd657536d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/div</value>
+      <webElementGuid>d3379d39-6c45-4d7f-a6f1-2a87d26fed79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Cek Riwayat Transaksi' or . = 'Cek Riwayat Transaksi')]</value>
+      <webElementGuid>7706c2a9-5f04-4569-9ab5-7d9dba428ede</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

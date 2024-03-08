@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="katalon demo" time="3198.655" tests="8" failures="0" errors="0">
+   <testsuite name="katalon demo" tests="8" failures="0" errors="0" time="3198.655" skipped="0" timestamp="07-03-2024T15:58:42" hostname="0517 - Pierrot" id="Test Suites/katalon demo">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\0517\\Katalon Studio\\poc bni\\Reports\\20240307_155816\\katalon demo\\20240307_155816"/>
+         <property name="logFiles" value="C:\\Users\\0517\\Katalon Studio\\poc bni\\Reports\\20240307_155816\\katalon demo\\20240307_155816\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login katalon demo.png, keyes\keyes-appointment katalon demo.png, keyes\keyes-appointment 1 katalon demo.png, keyes\keyes-appointment 2 katalon demo.png, keyes\keyes-history katalon demo.png, keyes\keyes-profile katalon demo.png, keyes\keyes-logout katalon demo.png, keyes\keyes-negatif 1 login katalon demo.png, keyes\keyes-negatif 2 login katalon demo.png"/>
+         <property name="hostName" value="0517 - Pierrot"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;requestId&quot;: &quot;d4281056-7308-432c-86b0-64ebba153527&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;121.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1341492,&#xa;    &quot;organizationId&quot;: &quot;1273958&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;121.0.6167.8 (4aa41a0c90a47035445354a3512460995acfedc1-refs/branch-heads/6167@{#52})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir888_1405305061&quot;&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;121&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.53.51:4444/session/4fedbcbb5727554e9c087d34d7133994/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.96.2"/>
+         <property name="sessionId" value="4fedbcbb5727554e9c087d34d7133994"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Katalon Demo/login katalon demo" time="85.96" classname="Test Cases/Katalon Demo/login katalon demo" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:43:50 - [TEST_CASE][PASSED] - Test Cases/Katalon Demo/login katalon demo: Test Cases/Katalon Demo/login katalon demo
+
+07-03-2024T16:43:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-03-2024T16:43:50 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+07-03-2024T16:43:50 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+07-03-2024T16:43:50 - [MESSAGE][INFO] - User set preference: ['browserVersion', '121']
+
+07-03-2024T16:43:50 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1273958, tunnelId=, usingTunnel=false}']
+
+07-03-2024T16:43:50 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+07-03-2024T16:43:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-03-2024T16:44:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-03-2024T16:44:45 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+07-03-2024T16:44:46 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+07-03-2024T16:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-03-2024T16:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-03-2024T16:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login' is clicked on
+
+07-03-2024T16:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login' is clicked on
+
+07-03-2024T16:44:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_username'
+
+07-03-2024T16:45:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_username'
+
+07-03-2024T16:45:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_password'
+
+07-03-2024T16:45:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_password'
+
+07-03-2024T16:45:06 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login katalon demo", STOP_ON_FAILURE): Taking screenshot successfully
+
+07-03-2024T16:45:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:45:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login katalon demo.png]]
+
+07-03-2024T16:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-03-2024T16:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Katalon Demo/make appointment katalon demo" time="60.904" classname="Test Cases/Katalon Demo/make appointment katalon demo" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:45:16 - [TEST_CASE][PASSED] - Test Cases/Katalon Demo/make appointment katalon demo: Test Cases/Katalon Demo/make appointment katalon demo
+
+07-03-2024T16:45:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo'  using regular expression
+
+07-03-2024T16:45:34 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo'  using regular expression
+
+07-03-2024T16:45:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+07-03-2024T16:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+07-03-2024T16:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs' is clicked on
+
+07-03-2024T16:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs' is clicked on
+
+07-03-2024T16:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+07-03-2024T16:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+07-03-2024T16:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/td_31")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/td_31' is clicked on
+
+07-03-2024T16:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/td_31' is clicked on
+
+07-03-2024T16:45:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment"), "tes katalon demo"): Text 'tes katalon demo' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment'
+
+07-03-2024T16:45:57 - [MESSAGE][PASSED] - Text 'tes katalon demo' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment'
+
+07-03-2024T16:45:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-03-2024T16:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-03-2024T16:46:01 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+07-03-2024T16:46:05 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+07-03-2024T16:46:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("appointment katalon demo"): Taking screenshot successfully
+
+07-03-2024T16:46:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:46:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-appointment katalon demo.png]]
+
+07-03-2024T16:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+07-03-2024T16:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Katalon Demo/make appointment katalon demo 1" time="59.719" classname="Test Cases/Katalon Demo/make appointment katalon demo 1" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:46:17 - [TEST_CASE][PASSED] - Test Cases/Katalon Demo/make appointment katalon demo 1: Test Cases/Katalon Demo/make appointment katalon demo 1
+
+07-03-2024T16:46:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo'  using regular expression
+
+07-03-2024T16:46:36 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/katalon demo/Page_CURA Healthcare Service/select_Tokyo'  using regular expression
+
+07-03-2024T16:46:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_hospital_readmission")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+07-03-2024T16:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+07-03-2024T16:46:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs' is clicked on
+
+07-03-2024T16:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs' is clicked on
+
+07-03-2024T16:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+07-03-2024T16:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+07-03-2024T16:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/td_30' is clicked on
+
+07-03-2024T16:46:50 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/td_30' is clicked on
+
+07-03-2024T16:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment"), "tes katalon"): Text 'tes katalon' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment'
+
+07-03-2024T16:46:58 - [MESSAGE][PASSED] - Text 'tes katalon' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment'
+
+07-03-2024T16:46:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-03-2024T16:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-03-2024T16:47:02 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+07-03-2024T16:47:06 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+07-03-2024T16:47:06 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("appointment 1 katalon demo"): Taking screenshot successfully
+
+07-03-2024T16:47:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:47:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-appointment 1 katalon demo.png]]
+
+07-03-2024T16:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+07-03-2024T16:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Katalon Demo/make appointment katalon demo 2" time="45.717" classname="Test Cases/Katalon Demo/make appointment katalon demo 2" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:47:17 - [TEST_CASE][PASSED] - Test Cases/Katalon Demo/make appointment katalon demo 2: Test Cases/Katalon Demo/make appointment katalon demo 2
+
+07-03-2024T16:47:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+07-03-2024T16:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+07-03-2024T16:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs' is clicked on
+
+07-03-2024T16:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_programs' is clicked on
+
+07-03-2024T16:47:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_visit_date")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+07-03-2024T16:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+07-03-2024T16:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/th_")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/th_' is clicked on
+
+07-03-2024T16:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/th_' is clicked on
+
+07-03-2024T16:47:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/td_28")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/td_28' is clicked on
+
+07-03-2024T16:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/td_28' is clicked on
+
+07-03-2024T16:47:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment"), "tes katalon"): Text 'tes katalon' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment'
+
+07-03-2024T16:47:44 - [MESSAGE][PASSED] - Text 'tes katalon' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/textarea_comment'
+
+07-03-2024T16:47:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-03-2024T16:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-03-2024T16:47:48 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+07-03-2024T16:47:52 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+07-03-2024T16:47:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("appointment 2 katalon demo"): Taking screenshot successfully
+
+07-03-2024T16:47:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:47:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-appointment 2 katalon demo.png]]
+
+07-03-2024T16:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+07-03-2024T16:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Katalon Demo/history katalon demo" time="85.965" classname="Test Cases/Katalon Demo/history katalon demo" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:48:02 - [TEST_CASE][PASSED] - Test Cases/Katalon Demo/history katalon demo: Test Cases/Katalon Demo/history katalon demo
+
+07-03-2024T16:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-03-2024T16:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-03-2024T16:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_History' is clicked on
+
+07-03-2024T16:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_History' is clicked on
+
+07-03-2024T16:48:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("history katalon demo"): Taking screenshot successfully
+
+07-03-2024T16:48:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:48:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-history katalon demo.png]]
+
+07-03-2024T16:48:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("katalon demo/Page_CURA Healthcare Service/a_Go to Homepage"), 3): Scroll to object 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' successfully
+
+07-03-2024T16:48:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='summary']/div/div/div[7]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-03-2024T16:48:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage'. Try using Self-healing.
+
+07-03-2024T16:48:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' was broken. Propose an alternative one: '//a[contains(text(),'Go to Homepage')]'.
+
+07-03-2024T16:48:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' successfully
+
+07-03-2024T16:48:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+07-03-2024T16:49:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='summary']/div/div/div[7]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-03-2024T16:49:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage'. Try using Self-healing.
+
+07-03-2024T16:49:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' was broken. Propose an alternative one: '//a[contains(text(),'Go to Homepage')]'.
+
+07-03-2024T16:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Katalon Demo/profile katalon demo" time="24.852" classname="Test Cases/Katalon Demo/profile katalon demo" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:49:28 - [TEST_CASE][PASSED] - Test Cases/Katalon Demo/profile katalon demo: Test Cases/Katalon Demo/profile katalon demo
+
+07-03-2024T16:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+07-03-2024T16:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+07-03-2024T16:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Profile")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Profile' is clicked on
+
+07-03-2024T16:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Profile' is clicked on
+
+07-03-2024T16:49:37 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("profile katalon demo"): Taking screenshot successfully
+
+07-03-2024T16:49:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:49:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-profile katalon demo.png]]
+
+07-03-2024T16:49:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+07-03-2024T16:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+07-03-2024T16:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Home")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Home' is clicked on
+
+07-03-2024T16:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Katalon Demo/logout katalon demo" time="21.249" classname="Test Cases/Katalon Demo/logout katalon demo" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:49:53 - [TEST_CASE][PASSED] - Test Cases/Katalon Demo/logout katalon demo: Test Cases/Katalon Demo/logout katalon demo
+
+07-03-2024T16:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+07-03-2024T16:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+07-03-2024T16:49:57 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("logout katalon demo"): Taking screenshot successfully
+
+07-03-2024T16:50:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:50:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-logout katalon demo.png]]
+
+07-03-2024T16:50:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+07-03-2024T16:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+07-03-2024T16:50:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-03-2024T16:50:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Katalon Demo/negatif login katalon demo" time="105.778" classname="Test Cases/Katalon Demo/negatif login katalon demo" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:50:14 - [TEST_CASE][PASSED] - Test Cases/Katalon Demo/negatif login katalon demo: Test Cases/Katalon Demo/negatif login katalon demo
+
+07-03-2024T16:50:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-03-2024T16:50:15 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+07-03-2024T16:50:15 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+07-03-2024T16:50:15 - [MESSAGE][INFO] - User set preference: ['browserVersion', '121']
+
+07-03-2024T16:50:15 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1273958, tunnelId=, usingTunnel=false}']
+
+07-03-2024T16:50:15 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+07-03-2024T16:50:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-03-2024T16:50:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-03-2024T16:50:46 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+07-03-2024T16:50:48 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+07-03-2024T16:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-03-2024T16:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-03-2024T16:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login' is clicked on
+
+07-03-2024T16:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login' is clicked on
+
+07-03-2024T16:50:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_username"), username1): Text 'aaaaa' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_username'
+
+07-03-2024T16:51:04 - [MESSAGE][PASSED] - Text 'aaaaa' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_username'
+
+07-03-2024T16:51:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/input_password"), password1): Text 'aaaaaaaa' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_password'
+
+07-03-2024T16:51:11 - [MESSAGE][PASSED] - Text 'aaaaaaaa' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_password'
+
+07-03-2024T16:51:11 - [TEST_STEP][PASSED] - click(findTestObject("katalon demo/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-03-2024T16:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-03-2024T16:51:15 - [TEST_STEP][PASSED] - verifyTextPresent("Login failed!", false): Text 'Login failed!' is present on page 
+
+07-03-2024T16:51:20 - [MESSAGE][PASSED] - Text 'Login failed!' is present on page 
+
+07-03-2024T16:51:20 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("negatif 1 login katalon demo"): Taking screenshot successfully
+
+07-03-2024T16:51:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:51:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-negatif 1 login katalon demo.png]]
+
+07-03-2024T16:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-03-2024T16:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-03-2024T16:51:31 - [TEST_STEP][PASSED] - setText(findTestObject("katalon demo/Page_CURA Healthcare Service/input_username"), username2): Text 'bbbbb' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_username'
+
+07-03-2024T16:51:39 - [MESSAGE][PASSED] - Text 'bbbbb' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_username'
+
+07-03-2024T16:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("katalon demo/Page_CURA Healthcare Service/input_password"), password2): Text 'bbbbbbbb' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_password'
+
+07-03-2024T16:51:46 - [MESSAGE][PASSED] - Text 'bbbbbbbb' is set on object 'Object Repository/katalon demo/Page_CURA Healthcare Service/input_password'
+
+07-03-2024T16:51:46 - [TEST_STEP][PASSED] - click(findTestObject("katalon demo/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-03-2024T16:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon demo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-03-2024T16:51:50 - [TEST_STEP][PASSED] - verifyTextPresent("Login failed!", false): Text 'Login failed!' is present on page 
+
+07-03-2024T16:51:53 - [MESSAGE][PASSED] - Text 'Login failed!' is present on page 
+
+07-03-2024T16:51:53 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("negatif 2 login katalon demo"): Taking screenshot successfully
+
+07-03-2024T16:52:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-03-2024T16:52:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-negatif 2 login katalon demo.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-03-2024T15:58:42 - [TEST_SUITE][FAILED] - katalon demo: Test Cases/Katalon Demo/login katalon demo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at login katalon demo.run(login katalon demo:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709801896674.run(TempTestSuite1709801896674.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PIERROT', ip: '192.168.96.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:549)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:338)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1705651249388.run(Script1705651249388.groovy:20)
+	... 15 more
+Caused by: java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:616)
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:624)
+	at okhttp3.internal.http2.Http2Stream.takeResponseHeaders(Http2Stream.java:146)
+	at okhttp3.internal.http2.Http2Codec.readResponseHeaders(Http2Codec.java:127)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:549)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:338)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at login katalon demo.run(login katalon demo:20)
+	... 15 more]]></system-out>
+      <system-err><![CDATA[07-03-2024T15:58:42 - [TEST_SUITE][FAILED] - katalon demo: Test Cases/Katalon Demo/login katalon demo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at login katalon demo.run(login katalon demo:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709801896674.run(TempTestSuite1709801896674.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PIERROT', ip: '192.168.96.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:549)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:338)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1705651249388.run(Script1705651249388.groovy:20)
+	... 15 more
+Caused by: java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:616)
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:624)
+	at okhttp3.internal.http2.Http2Stream.takeResponseHeaders(Http2Stream.java:146)
+	at okhttp3.internal.http2.Http2Codec.readResponseHeaders(Http2Codec.java:127)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:549)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:338)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at login katalon demo.run(login katalon demo:20)
+	... 15 more]]></system-err>
+   </testsuite>
+</testsuites>

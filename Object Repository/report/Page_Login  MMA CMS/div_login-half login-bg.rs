@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_login-half login-bg</name>
+   <tag></tag>
+   <elementGuidId>24acbc19-880a-437f-aba2-f3958b77eba0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.login-half.login-bg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>eaa2f3fd-b255-4d61-a0f9-bd24621a8bf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-half login-bg</value>
+      <webElementGuid>62884e79-a40f-49d8-b0ef-481585eb4878</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;login-wrapper&quot;]/div[@class=&quot;d-flex flex-row w-100&quot;]/div[@class=&quot;login-half login-bg&quot;]</value>
+      <webElementGuid>fd8aaa50-03ae-4852-8bea-0a7d5cd0308b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>7b3773c5-936e-48ff-a01e-7c4067c1ae99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
