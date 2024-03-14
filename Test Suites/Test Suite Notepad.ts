@@ -12,10 +12,32 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>cc4adcc2-481b-44df-bdd0-d13fd30e578c</testSuiteGuid>
    <testCaseLink>
-      <guid>c2eff47e-6b6a-4c96-8eae-c8d8fa0390ba</guid>
+      <guid>b5d83927-25d7-4d35-b070-087a3f1034c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tes desktop (1)</testCaseId>
+      <iterationNameVariable>
+         <defaultValue>findTestData('Tes Notepad Excel')</defaultValue>
+         <description></description>
+         <id>8e2f9bed-8c81-43a5-9d3b-28f6a9b002c5</id>
+         <masked>false</masked>
+         <name>variable</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/tes desktop</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7960a2b2-d360-4743-908c-08108fe94f8f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Tes Notepad Excel</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7960a2b2-d360-4743-908c-08108fe94f8f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>isi notepad</value>
+         <variableId>8e2f9bed-8c81-43a5-9d3b-28f6a9b002c5</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
