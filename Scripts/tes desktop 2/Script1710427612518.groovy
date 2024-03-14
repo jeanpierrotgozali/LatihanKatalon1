@@ -17,7 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Windows\\System32\\notepad.exe', 'tes desktop manual')
-
-Windows.closeApplication()
-

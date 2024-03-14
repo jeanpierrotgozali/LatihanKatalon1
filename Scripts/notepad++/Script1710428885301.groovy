@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Windows\\System32\\notepad.exe', 'notepad desktop')
+Windows.startApplicationWithTitle('C:\\Program Files\\Notepad++\\notepad++.exe', 'notepad desktop')
 
-Windows.setText(findWindowsObject('Object Repository/Edit'), 'tes desktop')
+Windows.setText(findWindowsObject('Object Repository/Pane'), 'aaa')
 
 Windows.closeApplication()
-
-Windows.click(findWindowsObject('Object Repository/Button'))
-
-Windows.setText(findWindowsObject('Object Repository/Edit(1)'), 'tes desktop')
-
-Windows.click(findWindowsObject('Object Repository/Button(1)'))
 
