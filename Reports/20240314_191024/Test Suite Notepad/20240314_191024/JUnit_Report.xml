@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Notepad" time="19.022" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Notepad" tests="1" failures="0" errors="0" time="19.022" skipped="0" timestamp="14-03-2024T19:10:33" hostname="0517 - Pierrot" id="Test Suites/Test Suite Notepad">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\0517\\git\\LatihanKatalon1\\Reports\\20240314_191024\\Test Suite Notepad\\20240314_191024"/>
+         <property name="logFiles" value="C:\\Users\\0517\\git\\LatihanKatalon1\\Reports\\20240314_191024\\Test Suite Notepad\\20240314_191024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0517 - Pierrot"/>
+         <property name="hostAddress" value="192.168.96.2"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/tes desktop (1)" time="18.652" classname="Test Cases/tes desktop (1)" status="PASSED">
+         <system-out><![CDATA[14-03-2024T19:10:33 - [TEST_CASE][PASSED] - Test Cases/tes desktop (1): Test Cases/tes desktop (1)
+
+14-03-2024T19:10:34 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Windows\System32\notepad.exe", "notepad desktop"): The application at location: C:\Windows\System32\notepad.exe started.
+
+14-03-2024T19:10:34 - [MESSAGE][INFO] - Starting application C:\Windows\System32\notepad.exe on the local machine at address http://127.0.0.1:4723
+
+14-03-2024T19:10:37 - [MESSAGE][PASSED] - The application at location: C:\Windows\System32\notepad.exe started.
+
+14-03-2024T19:10:37 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Edit"), "tes desktop"): Text tes desktop is set
+
+14-03-2024T19:10:38 - [MESSAGE][PASSED] - Text tes desktop is set
+
+14-03-2024T19:10:38 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+14-03-2024T19:10:43 - [MESSAGE][PASSED] - Fire Close event sucessfully.
+
+14-03-2024T19:10:43 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Button")): Click on element: Object Repository/Button succesfully
+
+14-03-2024T19:10:44 - [MESSAGE][INFO] - Clicking on element: Object Repository/Button
+
+14-03-2024T19:10:44 - [MESSAGE][PASSED] - Click on element: Object Repository/Button succesfully
+
+14-03-2024T19:10:44 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Edit(1)"), variable): Text tes is set
+
+14-03-2024T19:10:51 - [MESSAGE][PASSED] - Text tes is set
+
+14-03-2024T19:10:51 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Button(1)")): Click on element: Object Repository/Button(1) succesfully
+
+14-03-2024T19:10:51 - [MESSAGE][INFO] - Clicking on element: Object Repository/Button(1)
+
+14-03-2024T19:10:52 - [MESSAGE][PASSED] - Click on element: Object Repository/Button(1) succesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-03-2024T19:10:33 - [TEST_SUITE][PASSED] - Test Suite Notepad: Test Cases/tes desktop (1)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -5341,3 +5341,429 @@ and retry with 'git restore --source=HEAD :/'
   code: 'ENOTEMPTY',
   path:
    'C:\\Users\\0517\\Katalon Studio\\poc bni\\tmp\\2024.03.06-13.56--9852-SEvmf5xyMKkx-3351195' }
+[2024-03-15T11:38:58.468] [ERROR] katalon - { message:
+   'getaddrinfo ENOTFOUND testops.katalon.io testops.katalon.io:443',
+  name: 'Error',
+  description: undefined,
+  number: undefined,
+  fileName: undefined,
+  lineNumber: undefined,
+  columnNumber: undefined,
+  stack:
+   'Error: getaddrinfo ENOTFOUND testops.katalon.io testops.katalon.io:443\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  config:
+   { transitional:
+      { silentJSONParsing: true,
+        forcedJSONParsing: true,
+        clarifyTimeoutError: false },
+     adapter: [Function: httpAdapter],
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 60000,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     maxBodyLength: -1,
+     env: { FormData: [Function] },
+     validateStatus: [Function: validateStatus],
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        Authorization: 'Basic OjUyNGQyM2IwLTc5ODktNDRhZi1iZDU0LWI2YTU4NDAxYjgzOQ==',
+        'User-Agent': 'axios/0.27.2' },
+     method: 'get',
+     url: 'https://testops.katalon.io/api/v1/jobs/get-job',
+     params:
+      { uuid: '1710416121322-b1b63713-c46d-4c69-921b-ca07b0a06df9',
+        organizationId: '1273958' },
+     data: null,
+     proxy: null,
+     httpsAgent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: true,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object] } },
+  code: 'ENOTFOUND',
+  status: null }
+[2024-03-15T11:38:58.486] [ERROR] katalon - { message:
+   'getaddrinfo ENOTFOUND testops.katalon.io testops.katalon.io:443',
+  name: 'Error',
+  description: undefined,
+  number: undefined,
+  fileName: undefined,
+  lineNumber: undefined,
+  columnNumber: undefined,
+  stack:
+   'Error: getaddrinfo ENOTFOUND testops.katalon.io testops.katalon.io:443\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  config:
+   { transitional:
+      { silentJSONParsing: true,
+        forcedJSONParsing: true,
+        clarifyTimeoutError: false },
+     adapter: [Function: httpAdapter],
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 60000,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     maxBodyLength: -1,
+     env: { FormData: [Function] },
+     validateStatus: [Function: validateStatus],
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        Authorization: 'Basic OjUyNGQyM2IwLTc5ODktNDRhZi1iZDU0LWI2YTU4NDAxYjgzOQ==',
+        'User-Agent': 'axios/0.27.2' },
+     method: 'get',
+     url: 'https://testops.katalon.io/api/v1/jobs/get-job',
+     params:
+      { uuid: '1710416121322-b1b63713-c46d-4c69-921b-ca07b0a06df9',
+        organizationId: '1273958' },
+     data: null,
+     proxy: null,
+     httpsAgent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: true,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object] } },
+  code: 'ENOTFOUND',
+  status: null }
+[2024-03-15T11:38:58.501] [ERROR] katalon - { message:
+   'getaddrinfo ENOTFOUND testops.katalon.io testops.katalon.io:443',
+  name: 'Error',
+  description: undefined,
+  number: undefined,
+  fileName: undefined,
+  lineNumber: undefined,
+  columnNumber: undefined,
+  stack:
+   'Error: getaddrinfo ENOTFOUND testops.katalon.io testops.katalon.io:443\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  config:
+   { transitional:
+      { silentJSONParsing: true,
+        forcedJSONParsing: true,
+        clarifyTimeoutError: false },
+     adapter: [Function: httpAdapter],
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 60000,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     maxBodyLength: -1,
+     env: { FormData: [Function] },
+     validateStatus: [Function: validateStatus],
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'Content-Type': 'application/json',
+        Authorization: 'Basic OjUyNGQyM2IwLTc5ODktNDRhZi1iZDU0LWI2YTU4NDAxYjgzOQ==',
+        'User-Agent': 'axios/0.27.2',
+        'Content-Length': 189 },
+     method: 'post',
+     url: 'https://testops.katalon.io/api/v1/agent',
+     params: {},
+     data:
+      '{"uuid":"1710416121322-b1b63713-c46d-4c69-921b-ca07b0a06df9","name":"My Agent","organizationId":"1273958","hostname":"Pierrot","ip":"192.168.56.1","os":"Windows 64","agentVersion":"v2.0.1"}',
+     proxy: null,
+     httpsAgent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: true,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object] } },
+  code: 'ENOTFOUND',
+  status: null }
+[2024-03-15T11:38:58.510] [ERROR] katalon - Cannot send agent info to server: { message:
+   'getaddrinfo ENOTFOUND testops.katalon.io testops.katalon.io:443',
+  name: 'Error',
+  description: undefined,
+  number: undefined,
+  fileName: undefined,
+  lineNumber: undefined,
+  columnNumber: undefined,
+  stack:
+   'Error: getaddrinfo ENOTFOUND testops.katalon.io testops.katalon.io:443\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  config:
+   { transitional:
+      { silentJSONParsing: true,
+        forcedJSONParsing: true,
+        clarifyTimeoutError: false },
+     adapter: [Function: httpAdapter],
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 60000,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     maxBodyLength: -1,
+     env: { FormData: [Function] },
+     validateStatus: [Function: validateStatus],
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'Content-Type': 'application/json',
+        Authorization: 'Basic OjUyNGQyM2IwLTc5ODktNDRhZi1iZDU0LWI2YTU4NDAxYjgzOQ==',
+        'User-Agent': 'axios/0.27.2',
+        'Content-Length': 189 },
+     method: 'post',
+     url: 'https://testops.katalon.io/api/v1/agent',
+     params: {},
+     data:
+      '{"uuid":"1710416121322-b1b63713-c46d-4c69-921b-ca07b0a06df9","name":"My Agent","organizationId":"1273958","hostname":"Pierrot","ip":"192.168.56.1","os":"Windows 64","agentVersion":"v2.0.1"}',
+     proxy: null,
+     httpsAgent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: true,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object] } },
+  code: 'ENOTFOUND',
+  status: null }
+[2024-03-15T15:46:04.003] [ERROR] katalon - executeJob: { Error: Cloning into 'C:\Users\0517\git\LatihanKatalon1\tmp\2024.03.15-15.45--1268-dQjFSpnHz2VW-4169903\LatihanKatalon1.git'...
+Updating files:  19% (769/3948)Updating files:  20% (790/3948)error: unable to create file Reports/20240125_140640/katalon demo/20240125_140656/Object Repository/katalon demo/Page_CURA Healthcare Service/label_Apply for hospital readmission_position.png: Filename too long
+Updating files:  21% (830/3948)Updating files:  22% (869/3948)Updating files:  23% (909/3948)Updating files:  24% (948/3948)Updating files:  25% (987/3948)Updating files:  26% (1027/3948)Updating files:  27% (1066/3948)Updating files:  28% (1106/3948)Updating files:  29% (1145/3948)Updating files:  30% (1185/3948)Updating files:  31% (1224/3948)Updating files:  32% (1264/3948)Updating files:  33% (1303/3948)Updating files:  33% (1321/3948)Updating files:  34% (1343/3948)Updating files:  35% (1382/3948)Updating files:  36% (1422/3948)Updating files:  37% (1461/3948)Updating files:  38% (1501/3948)Updating files:  39% (1540/3948)Updating files:  40% (1580/3948)Updating files:  41% (1619/3948)Updating files:  42% (1659/3948)Updating files:  43% (1698/3948)Updating files:  44% (1738/3948)Updating files:  45% (1777/3948)Updating files:  46% (1817/3948)Updating files:  46% (1839/3948)Updating files:  47% (1856/3948)Updating files:  48% (1896/3948)Updating files:  49% (1935/3948)Updating files:  50% (1974/3948)Updating files:  51% (2014/3948)Updating files:  52% (2053/3948)Updating files:  53% (2093/3948)Updating files:  54% (2132/3948)Updating files:  55% (2172/3948)Updating files:  56% (2211/3948)Updating files:  57% (2251/3948)Updating files:  58% (2290/3948)Updating files:  58% (2326/3948)Updating files:  59% (2330/3948)Updating files:  60% (2369/3948)Updating files:  61% (2409/3948)Updating files:  62% (2448/3948)Updating files:  63% (2488/3948)Updating files:  64% (2527/3948)Updating files:  65% (2567/3948)Updating files:  66% (2606/3948)Updating files:  67% (2646/3948)Updating files:  68% (2685/3948)Updating files:  69% (2725/3948)Updating files:  70% (2764/3948)Updating files:  71% (2804/3948)Updating files:  71% (2830/3948)Updating files:  72% (2843/3948)Updating files:  73% (2883/3948)Updating files:  74% (2922/3948)Updating files:  75% (2961/3948)Updating files:  76% (3001/3948)Updating files:  77% (3040/3948)Updating files:  78% (3080/3948)Updating files:  79% (3119/3948)Updating files:  80% (3159/3948)Updating files:  81% (3198/3948)Updating files:  82% (3238/3948)Updating files:  83% (3277/3948)Updating files:  84% (3317/3948)Updating files:  85% (3356/3948)Updating files:  86% (3396/3948)Updating files:  86% (3424/3948)Updating files:  87% (3435/3948)Updating files:  88% (3475/3948)Updating files:  89% (3514/3948)Updating files:  90% (3554/3948)Updating files:  91% (3593/3948)Updating files:  91% (3631/3948)Updating files:  92% (3633/3948)Updating files:  93% (3672/3948)Updating files:  94% (3712/3948)Updating files:  95% (3751/3948)Updating files:  96% (3791/3948)Updating files:  97% (3830/3948)Updating files:  98% (3870/3948)Updating files:  99% (3909/3948)Updating files:  99% (3930/3948)Updating files: 100% (3948/3948)Updating files: 100% (3948/3948), done.
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+    at Object.action (D:\snapshot\katalon-agent\node_modules\simple-git\dist\cjs\index.js:1300:25)
+    at PluginStore.exec (D:\snapshot\katalon-agent\node_modules\simple-git\dist\cjs\index.js:1335:29)
+    at __esm.src/lib/runners/git-executor-chain.ts.GitExecutorChain.handleTaskData.Promise (D:\snapshot\katalon-agent\node_modules\simple-git\dist\cjs\index.js:1731:43)
+    at new Promise (<anonymous>)
+    at GitExecutorChain.handleTaskData (D:\snapshot\katalon-agent\node_modules\simple-git\dist\cjs\index.js:1729:16)
+    at GitExecutorChain.<anonymous> (D:\snapshot\katalon-agent\node_modules\simple-git\dist\cjs\index.js:1713:44)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\snapshot\katalon-agent\node_modules\simple-git\dist\cjs\index.js:55:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  task:
+   { commands:
+      [ 'clone',
+        '--depth',
+        '1',
+        '--branch',
+        'main',
+        'https://jeanpierrotgozali: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@github.com/jeanpierrotgozali/LatihanKatalon1.git',
+        'C:\\Users\\0517\\git\\LatihanKatalon1\\tmp\\2024.03.15-15.45--1268-dQjFSpnHz2VW-4169903\\LatihanKatalon1.git' ],
+     format: 'utf-8',
+     parser: [Function: parser] } }
+[2024-03-15T15:46:08.324] [ERROR] katalon - { message: 'Request failed with status code 400',
+  name: 'AxiosError',
+  description: undefined,
+  number: undefined,
+  fileName: undefined,
+  lineNumber: undefined,
+  columnNumber: undefined,
+  stack: undefined,
+  config:
+   { transitional:
+      { silentJSONParsing: true,
+        forcedJSONParsing: true,
+        clarifyTimeoutError: false },
+     adapter: [Function: httpAdapter],
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 60000,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     maxBodyLength: -1,
+     env: { FormData: [Function] },
+     validateStatus: [Function: validateStatus],
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'Content-Type': 'application/json',
+        Authorization: 'Basic OjUyNGQyM2IwLTc5ODktNDRhZi1iZDU0LWI2YTU4NDAxYjgzOQ==',
+        'User-Agent': 'axios/0.27.2',
+        'Content-Length': 121 },
+     method: 'post',
+     url: 'https://testops.katalon.io/api/v1/jobs/update-job',
+     params: {},
+     data:
+      '{"id":4169903,"status":"FAILED","processId":"2431916d-409f-44fa-9687-085b70620c19","stopTime":"2024-03-15T08:46:07.244Z"}',
+     proxy: null,
+     httpsAgent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object],
+        requests: {},
+        sockets: {},
+        freeSockets: [Object],
+        keepAliveMsecs: 1000,
+        keepAlive: true,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object] } },
+  code: 'ERR_BAD_REQUEST',
+  status: 400 }
+[2024-03-15T15:46:10.902] [ERROR] katalon - { Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\0517\git\LatihanKatalon1\tmp\2024.03.15-15.45--1268-dQjFSpnHz2VW-4169903'
+    at Object.rmdirSync (fs.js:684:3)
+    at rmkidsSync (D:\snapshot\katalon-agent\node_modules\tmp\node_modules\rimraf\rimraf.js:349:27)
+    at rmdirSync (D:\snapshot\katalon-agent\node_modules\tmp\node_modules\rimraf\rimraf.js:329:7)
+    at rimrafSync (D:\snapshot\katalon-agent\node_modules\tmp\node_modules\rimraf\rimraf.js:301:9)
+    at Object._cleanupCallback [as removeCallback] (D:\snapshot\katalon-agent\node_modules\tmp\lib\tmp.js:356:16)
+    at executeJob (D:\snapshot\katalon-agent\src\service\agent.js:0:0)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  errno: -4051,
+  syscall: 'rmdir',
+  code: 'ENOTEMPTY',
+  path:
+   'C:\\Users\\0517\\git\\LatihanKatalon1\\tmp\\2024.03.15-15.45--1268-dQjFSpnHz2VW-4169903' }
+[2024-03-15T15:58:17.330] [ERROR] katalon - { message: 'maxContentLength size of -1 exceeded',
+  name: 'AxiosError',
+  description: undefined,
+  number: undefined,
+  fileName: undefined,
+  lineNumber: undefined,
+  columnNumber: undefined,
+  stack: undefined,
+  config:
+   { transitional:
+      { silentJSONParsing: true,
+        forcedJSONParsing: true,
+        clarifyTimeoutError: false },
+     adapter: [Function: httpAdapter],
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 60000,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     maxBodyLength: -1,
+     env: { FormData: [Function] },
+     validateStatus: [Function: validateStatus],
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'Content-Type': 'application/json',
+        Authorization: 'Basic OjUyNGQyM2IwLTc5ODktNDRhZi1iZDU0LWI2YTU4NDAxYjgzOQ==',
+        'User-Agent': 'axios/0.27.2',
+        'Content-Length': 189 },
+     method: 'post',
+     url: 'https://testops.katalon.io/api/v1/agent',
+     params: {},
+     data:
+      '{"uuid":"1710416121322-b1b63713-c46d-4c69-921b-ca07b0a06df9","name":"My Agent","organizationId":"1273958","hostname":"Pierrot","ip":"192.168.56.1","os":"Windows 64","agentVersion":"v2.0.1"}',
+     proxy: null,
+     httpsAgent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object],
+        requests: {},
+        sockets: {},
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: true,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object] } },
+  code: 'ERR_BAD_RESPONSE',
+  status: null }
+[2024-03-15T15:58:17.335] [ERROR] katalon - Cannot send agent info to server: { message: 'maxContentLength size of -1 exceeded',
+  name: 'AxiosError',
+  description: undefined,
+  number: undefined,
+  fileName: undefined,
+  lineNumber: undefined,
+  columnNumber: undefined,
+  stack: undefined,
+  config:
+   { transitional:
+      { silentJSONParsing: true,
+        forcedJSONParsing: true,
+        clarifyTimeoutError: false },
+     adapter: [Function: httpAdapter],
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 60000,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     maxBodyLength: -1,
+     env: { FormData: [Function] },
+     validateStatus: [Function: validateStatus],
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'Content-Type': 'application/json',
+        Authorization: 'Basic OjUyNGQyM2IwLTc5ODktNDRhZi1iZDU0LWI2YTU4NDAxYjgzOQ==',
+        'User-Agent': 'axios/0.27.2',
+        'Content-Length': 189 },
+     method: 'post',
+     url: 'https://testops.katalon.io/api/v1/agent',
+     params: {},
+     data:
+      '{"uuid":"1710416121322-b1b63713-c46d-4c69-921b-ca07b0a06df9","name":"My Agent","organizationId":"1273958","hostname":"Pierrot","ip":"192.168.56.1","os":"Windows 64","agentVersion":"v2.0.1"}',
+     proxy: null,
+     httpsAgent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object],
+        requests: {},
+        sockets: {},
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: true,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object] } },
+  code: 'ERR_BAD_RESPONSE',
+  status: null }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Notepad" time="20.188" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Notepad" tests="1" failures="0" errors="0" time="20.188" skipped="0" timestamp="15-03-2024T12:24:26" hostname="0517 - Pierrot" id="Test Suites/Test Suite Notepad">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\0517\\git\\LatihanKatalon1\\Reports\\20240315_122357\\Test Suite Notepad\\20240315_122357"/>
+         <property name="logFiles" value="C:\\Users\\0517\\git\\LatihanKatalon1\\Reports\\20240315_122357\\Test Suite Notepad\\20240315_122357\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0517 - Pierrot"/>
+         <property name="hostAddress" value="192.168.96.2"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/tes simpan notepad" time="19.844" classname="Test Cases/tes simpan notepad" status="PASSED">
+         <system-out><![CDATA[15-03-2024T12:24:27 - [TEST_CASE][PASSED] - Test Cases/tes simpan notepad: Test Cases/tes simpan notepad
+
+15-03-2024T12:24:27 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Windows\System32\notepad.exe", "notepadplusplus"): The application at location: C:\Windows\System32\notepad.exe started.
+
+15-03-2024T12:24:28 - [MESSAGE][INFO] - Starting application C:\Windows\System32\notepad.exe on the local machine at address http://127.0.0.1:4723
+
+15-03-2024T12:24:29 - [MESSAGE][PASSED] - The application at location: C:\Windows\System32\notepad.exe started.
+
+15-03-2024T12:24:29 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Edit"), variable): Text isi notepad dengan menggunakan excel is set
+
+15-03-2024T12:24:32 - [MESSAGE][PASSED] - Text isi notepad dengan menggunakan excel is set
+
+15-03-2024T12:24:32 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+15-03-2024T12:24:38 - [MESSAGE][PASSED] - Fire Close event sucessfully.
+
+15-03-2024T12:24:38 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Button")): Click on element: Object Repository/Button succesfully
+
+15-03-2024T12:24:38 - [MESSAGE][INFO] - Clicking on element: Object Repository/Button
+
+15-03-2024T12:24:38 - [MESSAGE][PASSED] - Click on element: Object Repository/Button succesfully
+
+15-03-2024T12:24:38 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Edit(1)"), "tes simpan notepad"): Text tes simpan notepad is set
+
+15-03-2024T12:24:45 - [MESSAGE][PASSED] - Text tes simpan notepad is set
+
+15-03-2024T12:24:45 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Button(1)")): Click on element: Object Repository/Button(1) succesfully
+
+15-03-2024T12:24:46 - [MESSAGE][INFO] - Clicking on element: Object Repository/Button(1)
+
+15-03-2024T12:24:47 - [MESSAGE][PASSED] - Click on element: Object Repository/Button(1) succesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-03-2024T12:24:26 - [TEST_SUITE][PASSED] - Test Suite Notepad: Test Cases/tes simpan notepad]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

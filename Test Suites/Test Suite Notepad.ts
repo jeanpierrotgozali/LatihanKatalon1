@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>variable</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/tes desktop</testCaseId>
+      <testCaseId>Test Cases/tes simpan notepad</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7960a2b2-d360-4743-908c-08108fe94f8f</id>
@@ -37,7 +37,7 @@
          <testDataLinkId>7960a2b2-d360-4743-908c-08108fe94f8f</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>isi notepad</value>
-         <variableId>8e2f9bed-8c81-43a5-9d3b-28f6a9b002c5</variableId>
+         <variableId>baca52ae-830b-4896-a5f2-fd6d1f4b594d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

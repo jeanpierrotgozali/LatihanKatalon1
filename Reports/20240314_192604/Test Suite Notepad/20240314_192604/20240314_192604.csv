@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Notepad,,,,14-03-2024 19:26:14,14-03-2024 19:26:32,17.904s,PASSED
+,,,,,,,
+Test Cases/tes desktop,,,,14-03-2024 19:26:15,14-03-2024 19:26:32,17.522s,PASSED
+"startApplicationWithTitle(""C:\Windows\System32\notepad.exe"", ""notepad desktop"")",,,,14-03-2024 19:26:15,14-03-2024 19:26:17,2.137s,PASSED
+"setText(findWindowsObject(""Object Repository/Edit""), variable)",,,,14-03-2024 19:26:17,14-03-2024 19:26:18,1.045s,PASSED
+closeApplication(),,,,14-03-2024 19:26:18,14-03-2024 19:26:24,5.092s,PASSED
+"click(findWindowsObject(""Object Repository/Button""))",,,,14-03-2024 19:26:24,14-03-2024 19:26:24,0.588s,PASSED
+"setText(findWindowsObject(""Object Repository/Edit(1)""), ""tes desktop"")",,,,14-03-2024 19:26:24,14-03-2024 19:26:32,7.530s,PASSED
+"click(findWindowsObject(""Object Repository/Button(1)""))",,,,14-03-2024 19:26:32,14-03-2024 19:26:32,0.572s,PASSED
