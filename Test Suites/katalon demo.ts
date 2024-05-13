@@ -67,34 +67,31 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b281a885-17fd-482f-a71e-9bac8c88759b</guid>
+      <guid>5057ad92-2846-496c-b1e5-871b5e8b41f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Katalon Demo/negatif login katalon demo</testCaseId>
+      <testCaseId>Test Cases/Katalon Demo/negative login katalon demo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>20efd608-2675-4650-b33a-32bbb2ef4e27</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/katalon demo</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8fae8dd2-4d17-4b14-8948-6d4eb6eaf1d6</variableId>
+         <testDataLinkId>20efd608-2675-4650-b33a-32bbb2ef4e27</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>70b42195-05e2-4a28-9321-9dda24a5dce3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>14250ecc-809e-4ee6-a09b-c82883a49eba</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a14ef511-ed25-4454-a81a-dbbc9d2c0a36</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c2df39fe-a0fb-4d9c-8c41-52a30248314f</variableId>
+         <testDataLinkId>20efd608-2675-4650-b33a-32bbb2ef4e27</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c8bcec4a-cbf9-43ca-b095-3c32db1b0e0f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

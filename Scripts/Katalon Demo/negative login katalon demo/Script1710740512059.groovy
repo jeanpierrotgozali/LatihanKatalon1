@@ -19,7 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('google.com')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/katalon demo/Page_CURA Healthcare Service/amenu-toggle'))
+
+WebUI.click(findTestObject('Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login'))
+
+WebUI.setText(findTestObject('katalon demo/Page_CURA Healthcare Service/input_username'), username)
+
+WebUI.setText(findTestObject('katalon demo/Page_CURA Healthcare Service/input_password'), password)
+
+WebUI.click(findTestObject('katalon demo/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.verifyTextPresent('Login failed!', false)
+
+WebUI.takeScreenshotAsCheckpoint('negatif 2 login katalon demo')
 

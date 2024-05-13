@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WS.sendRequestAndVerify(findTestObject('api get list user'))
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('google.com')
+WebUI.navigateToUrl('http://demoaut.katalon.com/')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('katalon demo/Page_CURA Healthcare Service/amenu-toggle'))
+
+WebUI.click(findTestObject('Object Repository/katalon demo/Page_CURA Healthcare Service/a_Login'))
+
+WebUI.setText(findTestObject('Object Repository/katalon demo/Page_CURA Healthcare Service/input_username'), GlobalVariable.firstname)
 

@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Windows.startApplicationWithTitle('C:\\Windows\\System32\\notepad.exe', 'notepadplusplus')
 
-WebUI.navigateToUrl('google.com')
+Windows.setText(findWindowsObject('Object Repository/desktop notepad/Edit'), 'tes simpan notepad')
 
-WebUI.closeBrowser()
+Windows.closeApplication()
+
+Windows.click(findWindowsObject('Object Repository/desktop notepad/Button'))
+
+Windows.setText(findWindowsObject('Object Repository/desktop notepad/Edit(1)'), 'tes simpan notepad')
+
+Windows.click(findWindowsObject('Object Repository/desktop notepad/Button(1)'))
 

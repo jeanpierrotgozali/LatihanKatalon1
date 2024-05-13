@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Notepad,,,,21-03-2024 10:14:24,21-03-2024 10:14:45,21.171s,PASSED
+,,,,,,,
+Test Cases/tes simpan notepad 1,,,,21-03-2024 10:14:25,21-03-2024 10:14:45,20.334s,PASSED
+"startApplicationWithTitle(""C:\Windows\System32\notepad.exe"", ""notepadplusplus"")",,,,21-03-2024 10:14:25,21-03-2024 10:14:29,3.295s,PASSED
+"setText(findWindowsObject(""Object Repository/desktop notepad/Edit""), ""tes simpan notepad"")",,,,21-03-2024 10:14:29,21-03-2024 10:14:31,2.210s,PASSED
+closeApplication(),,,,21-03-2024 10:14:31,21-03-2024 10:14:36,5.111s,PASSED
+"click(findWindowsObject(""Object Repository/desktop notepad/Button""))",,,,21-03-2024 10:14:36,21-03-2024 10:14:37,0.641s,PASSED
+"setText(findWindowsObject(""Object Repository/desktop notepad/Edit(1)""), ""tes simpan notepad"")",,,,21-03-2024 10:14:37,21-03-2024 10:14:44,7.922s,PASSED
+"click(findWindowsObject(""Object Repository/desktop notepad/Button(1)""))",,,,21-03-2024 10:14:44,21-03-2024 10:14:45,0.626s,PASSED
